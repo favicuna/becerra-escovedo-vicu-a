@@ -6,11 +6,12 @@
 
 #nombresH{
     display: flex;
-    margin-left: 20%;
     font-family: 'Abril Fatface', cursive;
     letter-spacing:0.1em;
     font-weight:700;
     font-size: 30rem;
+    align-items: center;
+    justify-content: center;
 }
 
 #letraV{
@@ -27,7 +28,7 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
     font-weight:400;
     color:#373737;
-    background-color:rgb(255, 255, 255); 
+    background-color:rgb(255, 255, 255);
 }
 
 h1, h2{
@@ -36,7 +37,7 @@ h1, h2{
     color:white;
     text-align:center;
     letter-spacing:0.1em;
-    
+
     font-weight:700;
 }
 
@@ -62,7 +63,7 @@ h2{
 
 @media screen and (max-width: 900px){
     h5{ font-size:4.5rem; }
-    
+
 }
 
 h3{
@@ -70,7 +71,7 @@ h3{
 }
 
 h5, h6{
-    font-weight:700;     
+    font-weight:700;
 }
 
 
@@ -80,7 +81,7 @@ header{
     top:10%;
     position: absolute;
     z-index:9;
-    
+
 }
 
 @media screen and (orientation: portrait){
@@ -128,7 +129,7 @@ main{
 }
 
 .item {
-    
+
     width:23%;
     margin:1%;
     box-shadow:0 0 5px rgba(0, 0, 0, 0.5);
@@ -155,14 +156,14 @@ main{
 }
  .item figure{
      overflow:hidden;
-    
+
 }
  .item figure img{
      width:100%;
      height:auto;
      margin-bottom:-4px;
      filter: grayscale(1);
-     
+
 }
 
 .item:hover figure img{
@@ -181,7 +182,7 @@ main{
      margin:2% 10% 6% 5%;
 }
 
- 
+
 .imagenIntegrante1{
     transition: all 0.2s ease;
     background-color: rgb(215,153,156);
@@ -261,8 +262,3 @@ footer p{
     letter-spacing:0.1em;
     font-size:0.9em;
 }
-
-
-
-
-
